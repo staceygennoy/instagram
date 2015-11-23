@@ -25,7 +25,7 @@ class InstagramViewController: UIViewController, UITableViewDelegate, UITableVie
         
         // Do any additional setup after loading the view.
         
-        let url = NSURL(string: "https://api.instagram.com/v1/users/self/media/recent/?access_token=509167208.f61aa97.804fb5fe594a4c6e8480cdbfa6ee448b")!
+        let url = NSURL(string: "")!
         
         let request = NSURLRequest(URL: url)
         

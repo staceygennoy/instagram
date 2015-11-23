@@ -5,7 +5,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
     </dependencies>
     <scenes>
-        <!--Instagram View Controller-->
+        <!--My Instagram Feed-->
         <scene sceneID="uze-94-nu5">
             <objects>
                 <viewController id="f8n-br-ctZ" customClass="InstagramViewController" customModule="instagram" customModuleProvider="target" sceneMemberID="viewController">
@@ -40,7 +40,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="8tO-cn-1M8"/>
+                    <navigationItem key="navigationItem" title="My Instagram Feed" id="8tO-cn-1M8"/>
                     <connections>
                         <outlet property="tableView" destination="8td-aA-8O9" id="ueL-vY-yh6"/>
                     </connections>
