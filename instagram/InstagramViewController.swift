@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AFNetworking
 
 class InstagramViewController: UIViewController, UITableViewDelegate, UITableViewDataSource  {
 
@@ -58,6 +59,8 @@ class InstagramViewController: UIViewController, UITableViewDelegate, UITableVie
         let photo = photos[indexPath.row]
         
         let urlString = photo.valueForKeyPath("images.low_resolution.url") as! String
+        
+        cell.photoImageView.setImageWithURL(NSURL(string: urlString)!)
         
         print (urlString)
         
